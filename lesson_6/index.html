@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Основна інформація -->
+        <div class="container">
+            <h2>Registration</h2>
+            <form class="form" action="">
+                
+                <div class="form__field">
+                    <label for="Input1">
+                    <div><span>Enter name</span></div>
+                    <input id="Input1" type="text" placeholder="First name" required>
+                    </label>
+                </div>
+
+                <div class="form__field">
+                    <label for="Input2">
+                    <div><span>Last name</span></div>
+                    <input id="Input2" type="text" placeholder="Last name" required>
+                    </label>
+                </div>
+            
+                <div class="form__field">
+                    <label for="Input3">
+                    <div><span>E-mail</span></div>
+                    <input id="Input3" type="email" placeholder="E-mail" required>
+                    </label>
+                </div>
+
+                <div class="form__field">
+                    <label for="Input4">
+                    <div><span>Password</span></div>
+                    <input id="Input4" type="password" placeholder="Password" required>
+                    </label>
+                </div>
+
+                <div class="form__field">
+                    <label for="Input5">
+                    
+                    <input id="Input5" type="password" placeholder="Repeat password" required>
+                    </label>
+                </div>
+
+                <div class="form__field">
+                    <div><span>Gender</span></div>
+                    
+                    <input  name="Gender" type="radio"><span>Male</span> 
+                    <input  name="Gender" type="radio"><span>Female</span> 
+                </div>
+
+                <div class="form__field">
+                    <label for="Input6">
+                        <div><span>Your age</span></div>
+                    <input id="Input6" type="number"  required> 
+                    </label>
+                </div>
+
+                <div class="form__field">
+                    <div><span>Choose course</span></div>
+                    <select name="select">
+                        
+                        <option value="">Front-End</option>
+                        <option value="">Back-End</option>
+                        <option value="">Project Management</option>
+                        <option value="">QA Manual</option>
+                    </select>
+                    
+
+                    <div class="form__field">
+                        <label for="Input7">
+                            <div><span>Adress</span></div>
+                            <textarea name="Adress" placeholder="Your adress here" id="Input7" cols="20" rows="5"></textarea>
+                        
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form__field">
+                    <label for="Input8">
+                        <div><span>I agree</span></div>
+                    <input id="Input8" type="checkbox"  required> 
+                    </label>
+                </div>
+                <div class="Button">
+                <button type="submit">Submit</button>
+                <button type="submit">Clear form</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

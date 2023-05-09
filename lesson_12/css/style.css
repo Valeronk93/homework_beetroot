@@ -1,0 +1,57 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+:root {
+    --main-fonts: 'PT Sans', sans-serif;
+    --title : 'Francois One', sans-serif;
+    --lang : 'Tourney', sans-serif;
+    --text-fonts : 400 28px/48px var(--main-fonts);
+    --title-fonts : 400 36/48px var(--header);
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar {
+    max-width: 385px;
+    height: 462px;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.text__container {
+    max-width: 785px;
+}
